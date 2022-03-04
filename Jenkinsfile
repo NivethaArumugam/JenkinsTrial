@@ -11,7 +11,7 @@ pipeline {
             steps {
               
                
-                 bat "mvn clean package"
+                 bat "java -version"
             }
 
           
@@ -20,6 +20,7 @@ pipeline {
             steps {
               
                echo "DEPLOYING......"
+                bat "mvn -version"
             }
 
           
