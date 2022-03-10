@@ -57,7 +57,7 @@
                     <target>1.8</target>
                 </configuration>
             </plugin></plugins>
-		<finalName>${project.artifactId}-${project.version}</finalName>
+		<finalName>myFirstJob</finalName>
 	</build>
 
 </project>
