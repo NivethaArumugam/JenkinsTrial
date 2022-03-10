@@ -10,7 +10,9 @@ pipeline {
         stage('Build') {
             steps {
               echo "Building"
-              
+              bat "mvn -version"
+                bat "java -version"
+                bat "mvn clean install"
             }
 
           
@@ -19,7 +21,7 @@ pipeline {
             steps {
               
                echo "DEPLOYING......"
-                bat "mvn -version"
+                
             }
 
           
